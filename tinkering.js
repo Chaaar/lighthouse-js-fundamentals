@@ -1,7 +1,5 @@
-function multiply(a, b) {
-  return a * b;
+const returnSayHello  = function (name) {
+  return "Hello, " + name;
 }
 
-const result = multiply(4, 4);
-
-console.log(result);
+console.log(returnSayHello("John"));
